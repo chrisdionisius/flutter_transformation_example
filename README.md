@@ -20,6 +20,14 @@ Praktikum pertemuan 33 TSA Mobile Flutter Program - Flutter Transformation
 
 ![Screenshot Praktikum](images/SS_project_4.gif)
 
+# Note
+
+Run with no sound null safety since the Flutter Transformation Package still not support null safety
+
+```console
+foo@bar> flutter run --no-sound-null-safety
+```
+
 # Resources
 
 - [Flutter Transformation](https://pub.dev/packages/flutter_transformation)
