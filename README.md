@@ -1,16 +1,31 @@
 # flutter_transformation_example
 
-A new Flutter project.
+Praktikum pertemuan 33 TSA Mobile Flutter Program - Flutter Transformation
 
-## Getting Started
+# Screenshoot Project
 
-This project is a starting point for a Flutter application.
+### Praktikum 1
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot Praktikum 1](images/SS_project_1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Praktikum 2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot Praktikum 2](images/SS_project_2.png)
+
+### Praktikum 3
+
+![Screenshot Praktikum 3](images/SS_project_3.png)
+
+## Preview
+
+![Screenshot Praktikum](images/SS_project_4.gif)
+
+# Resources
+
+- [Flutter Transformation](https://pub.dev/packages/flutter_transformation)
+
+# References
+
+- [Prespective on Flutter] (https://medium.com/flutter/perspective-on-flutter-6f832f4d912e)
+
+- [Make 3D Flip Animation in Flutter] (https://medium.com/flutter-community/make-3d-flip-animation-in-flutter-3d6b3d9e9f9a)

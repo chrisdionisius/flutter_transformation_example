@@ -1,8 +1,5 @@
-import 'dart:math';
-
 import 'package:flip_panel/flip_panel.dart';
 import 'package:flutter/material.dart';
-
 import 'main.dart';
 import 'second_page.dart';
 
