@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_transformation_example/main.dart';
+import 'package:flutter_transformation_example/third_page.dart';
 
 class SecondPage extends StatefulWidget {
   const SecondPage({Key? key}) : super(key: key);
@@ -56,7 +57,29 @@ class _SecondPageState extends State<SecondPage> {
               child: const Text('Go to First Page'),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ThirdPage(
+                      child: Container(
+                        height: 75,
+                        width: 50,
+                        color: Colors.black,
+                        child: const Center(
+                          child: Text(
+                            '0',
+                            style: TextStyle(
+                                color: Colors.amber,
+                                fontSize: 50,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              },
               child: const Text('Go to Third Page'),
             ),
             const Text(

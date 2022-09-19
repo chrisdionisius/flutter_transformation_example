@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 import 'second_page.dart';
+import 'third_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -59,7 +60,29 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Text('Go to Second Page'),
             ),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ThirdPage(
+                      child: Container(
+                        height: 75,
+                        width: 50,
+                        color: Colors.black,
+                        child: const Center(
+                          child: Text(
+                            '0',
+                            style: TextStyle(
+                                color: Colors.amber,
+                                fontSize: 50,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              },
               child: const Text('Go to Third Page'),
             ),
             const Text(
